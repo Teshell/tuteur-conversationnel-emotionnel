@@ -1,0 +1,42 @@
+# Modeles (trop lourds pour GitHub)
+emobert_v1/
+emobert_v2/
+emobert_v3/
+emobert_v4/
+emobert_v5/
+emobert_6classes/
+emobert_output/
+
+# Donnees brutes (trop volumineuses)
+corpus_brut.csv
+df_final*.csv
+df_balanced*.csv
+df_go_balanced*.csv
+df_aug*.csv
+
+# Environnements Python
+venv/
+venv_memoire/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Logs
+logs/
+*.jsonl
+
+# Checkpoints Colab
+checkpoint-*/
+*_output/
+
+# Fichiers systeme
+.DS_Store
+Thumbs.db
+
+# Wheels
+*.whl
+
+# Fichiers temporaires
+*.tmp
+*.log

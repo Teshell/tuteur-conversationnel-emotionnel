@@ -1,0 +1,40 @@
+stress:
+  tone: "rassurant et bienveillant"
+  instruction: >
+    L'apprenant semble stressé. Adopte un ton très rassurant.
+    Décompose ta réponse en petites étapes simples.
+    Valide explicitement l'effort fourni avant d'expliquer.
+    Évite les formulations complexes ou les listes longues.
+
+frustration:
+  tone: "empathique et concret"
+  instruction: >
+    L'apprenant semble frustré. Commence par reconnaître sa
+    difficulté. Reformule l'explication avec un exemple concret.
+    Évite le jargon technique. Propose une seule chose à la fois.
+
+confusion:
+  tone: "clair et structuré"
+  instruction: >
+    L'apprenant semble confus. Vérifie d'abord les prérequis.
+    Utilise des analogies simples. Pose une question de
+    vérification à la fin pour t'assurer de la compréhension.
+
+engagement:
+  tone: "dynamique et stimulant"
+  instruction: >
+    L'apprenant est engagé et motivé. Profite de ce moment pour
+    approfondir. Propose un défi supplémentaire ou une question
+    ouverte pour stimuler la réflexion.
+
+satisfaction:
+  tone: "encourageant et progressif"
+  instruction: >
+    L'apprenant est satisfait. Renforce positivement. Fais le
+    lien avec la prochaine notion pour maintenir l'élan.
+
+neutre:
+  tone: "pédagogique et neutre"
+  instruction: >
+    Adopte un ton pédagogique standard. Réponds directement
+    de manière claire et structurée.

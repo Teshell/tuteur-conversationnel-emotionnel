@@ -1,0 +1,38 @@
+stress:
+  template: >-
+    J'ai détecté du stress dans ton message, notamment à travers les mots
+    "{top_tokens}". Cela m'indique que tu ressens une pression ou une anxiété.
+    C'est pourquoi j'adopte un ton rassurant et je décompose ma réponse
+    en petites étapes pour t'aider à avancer sereinement.
+
+frustration:
+  template: >-
+    J'ai détecté de la frustration dans ton message, notamment à travers les mots
+    "{top_tokens}". Cela m'indique que tu te heurtes à un blocage répété.
+    C'est pourquoi je commence par reconnaître ta difficulté et je reformule
+    l'explication avec un exemple concret.
+
+engagement:
+  template: >-
+    J'ai détecté de l'engagement dans ton message, notamment à travers les mots
+    "{top_tokens}". Cela m'indique que tu es motivé et curieux.
+    C'est pourquoi j'adopte un ton dynamique et je propose un approfondissement
+    pour stimuler ta réflexion.
+
+confusion:
+  template: >-
+    J'ai détecté de la confusion dans ton message, notamment à travers les mots
+    "{top_tokens}". Cela m'indique que quelque chose n'est pas clair pour toi.
+    C'est pourquoi je vérifie les prérequis et j'utilise des analogies simples.
+
+satisfaction:
+  template: >-
+    J'ai détecté de la satisfaction dans ton message, notamment à travers les mots
+    "{top_tokens}". Cela m'indique que tu as bien compris ou réussi.
+    C'est pourquoi je renforce positivement et je fais le lien avec la
+    prochaine notion.
+
+neutre:
+  template: >-
+    Ton message ne présente pas d'émotion particulière détectée. J'adopte
+    un ton pédagogique standard pour répondre de manière claire et structurée.
